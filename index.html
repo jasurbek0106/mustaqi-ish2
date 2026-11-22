@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grand Hotel</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#bosh">GRAND HOTEL</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menyu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menyu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bosh">Bosh sahifa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#xonalar">Xonalar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#xizmatlar">Xizmatlar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#narxlar">Narxlar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bron">Bron qilish</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Qo'shimcha
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#tolov">To'lov</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#aloqa">Aloqa</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#fikrlar">Mijozlar fikri</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4" id="bosh">
+        <div class="p-5 bg-light rounded text-center">
+            <h1 class="text-primary">Grand Hotel mehmonxonasiga xush kelibsiz!</h1>
+            <p class="lead">
+                Sizning qulayligingiz va maroqli dam olishingiz uchun
+                barcha sharoitlar mavjud.
+            </p>
+            <p class="text-muted">
+                Biz bilan unutilmas dam olish imkoniyatiga ega bo'ling.
+            </p>
+            <a href="#bron" class="btn btn-primary btn-lg">
+                Xona bron qilish
+            </a>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="rasimlar/lux.png" alt="Los Angeles" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="rasimlar/odiy.png" alt="Chicago" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="rasimlar/umumiy.png" alt="New York" class="d-block w-100">
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <div class="container mt-5" id="xizmatlar">
+            <h2 class="text-center text-primary mb-4">Bizning xizmatlarimiz</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Bepul Wi-Fi</h4>
+                            <p class="card-text">
+                                Mehmonxonamizda barcha mijozlar uchun bepul
+                                internet xizmatidan foydalanish imkoniyati mavjud.
+                            </p>
+                            <a href="#aloqa" class="btn btn-primary">
+                                Batafsil
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Restoran</h4>
+                            <p class="card-text">
+                                Mehmonlarimiz uchun mazali taomlar va
+                                sifatli xizmat ko'rsatish yo'lga qo'yilgan.
+                            </p>
+                            <a href="#aloqa" class="btn btn-primary">
+                                Batafsil
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Dam olish</h4>
+                            <p class="card-text">
+                                Qulay xonalar va zamonaviy sharoitlar
+                                orqali maroqli dam olishingiz mumkin.
+                            </p>
+                            <a href="#aloqa" class="btn btn-primary">
+                                Batafsil
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5" id="xonalar">
+            <h2 class="text-center text-primary mb-4">Bizning xonalarimiz</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card" style="width:100%">
+                        <img class="card-img-top" src="rasimlar/odiy.png" alt="Oddiy xona">
+                        <div class="card-body">
+                            <h4 class="card-title">Oddiy xona</h4>
+                            <p class="card-text">
+                                Qulay va shinam xona. Kundalik dam olish
+                                uchun barcha zarur sharoitlar mavjud.
+                            </p>
+                            <h5 class="text-primary">300 000 so'm</h5>
+                            <a href="#bron" class="btn btn-primary">
+                                Bron qilish
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card" style="width:100%">
+                        <img class="card-img-top" src="rasimlar/lux.png" alt="Lux xona">
+                        <div class="card-body">
+                            <h4 class="card-title">Lux xona</h4>
+                            <p class="card-text">
+                                Keng va zamonaviy xona. Yuqori darajadagi
+                                qulaylik va xizmatlar taklif etiladi.
+                            </p>
+                            <h5 class="text-primary">600 000 so'm</h5>
+                            <a href="#bron" class="btn btn-primary">
+                                Bron qilish
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card" style="width:100%">
+                        <img class="card-img-top" src="rasimlar/umumiy.png" alt="Oilaviy xona">
+                        <div class="card-body">
+                            <h4 class="card-title">Oilaviy xona</h4>
+                            <p class="card-text">
+                                Oila bilan dam olish uchun mo'ljallangan
+                                keng va qulay xona.
+                            </p>
+                            <h5 class="text-primary">800 000 so'm</h5>
+                            <a href="#bron" class="btn btn-primary">
+                                Bron qilish
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container mt-5">
+            <h2 class="text-center text-primary mb-4">Bron qilish tartibi</h2>
+            <ul class="list-group list-group-numbered">
+                <li class="list-group-item">
+                    Kerakli xonani tanlang.
+                </li>
+                <li class="list-group-item">
+                    Bron qilish formasini to'ldiring.
+                </li>
+                <li class="list-group-item">
+                    Kerakli sanani belgilang.
+                </li>
+
+                <li class="list-group-item">
+                    To'lov turini tanlang.
+                </li>
+
+                <li class="list-group-item">
+                    Bron ma'lumotlarini tasdiqlang.
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="container mt-5" id="narxlar">
+            <h2 class="text-center text-primary mb-4">Xonalar narxlari</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped table-hover">
+                    <thead class="table-primary">
+                        <tr>
+                            <th>№</th>
+                            <th>Xona turi</th>
+                            <th>Sig'imi</th>
+                            <th>Narxi</th>
+                            <th>Holati</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>1</td>
+                            <td>Oddiy xona</td>
+                            <td>2 kishi</td>
+                            <td>300 000 so'm</td>
+                            <td>Mavjud</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Lux xona</td>
+                            <td>3 kishi</td>
+                            <td>600 000 so'm</td>
+                            <td>Mavjud</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>Oilaviy xona</td>
+                            <td>4 kishi</td>
+                            <td>800 000 so'm</td>
+                            <td>Mavjud</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+        </div>
+        <div class="container mt-5">
+            <h2 class="text-center text-primary mb-4">
+                Mehmonxonamiz haqida video
+            </h2>
+            <div class="ratio ratio-16x9">
+                <video src="rasimlar/vido.mp4" type="video/mp4" controls>
+                </video>
+
+            </div>
+
+        </div>
+
+        <div class="container mt-4">
+            <h3 class="text-primary">Mehmonxona musiqasi</h3>
+
+            <audio src="audio/musiqa.mp3" type="audio/mpeg" controls class="w-100">
+            </audio>
+
+        </div>
+        <div class="container mt-5" id="bron">
+            <h2 class="text-center text-primary mb-4">Xona bron qilish</h2>
+            <form action="#" method="post">
+                <div class="mb-3">
+                    <label class="form-label">F.I.SH:</label>
+                    <input type="text" class="form-control" placeholder="Ismingiz va familiyangizni kiriting" required>
+
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Telefon raqami:</label>
+                    <input type="tel" class="form-control" placeholder="+998 90 123 45 67" required>
+
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Elektron pochta:</label>
+                    <input type="email" class="form-control" placeholder="example@gmail.com">
+
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Xona turini tanlang:</label>
+                    <select class="form-select" required>
+                        <option value="">Xona turini tanlang</option>
+                        <option>Oddiy xona</option>
+                        <option>Lux xona</option>
+                        <option>Oilaviy xona</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Kelish sanasi:</label>
+                    <input type="date" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Ketish sanasi:</label>
+                    <input type="date" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Mehmonlar soni:</label>
+                    <input type="number" class="form-control" min="1" max="10" value="1">
+
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Qo'shimcha ma'lumot:</label>
+                    <textarea class="form-control" rows="4" placeholder="Qo'shimcha talablaringizni yozing"></textarea>
+                </div>
+                <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" id="rozilik" required>
+                    <label class="form-check-label" for="rozilik">
+                        Ma'lumotlarim to'g'riligini tasdiqlayman.
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    Bron qilish
+                </button>
+                <button type="reset" class="btn btn-secondary">
+                    Tozalash
+                </button>
+            </form>
+        </div>
+
+        <div class="container mt-5">
+            <h2 class="text-primary">Qo'shimcha xizmatlar</h2>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">
+                    Xizmatlar
+                </button>
+                <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split"
+                    data-bs-toggle="dropdown">
+                    <span class="visually-hidden">Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="#xizmatlar">
+                            Restoran
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#xizmatlar">
+                            Bepul Wi-Fi
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#xizmatlar">
+                            Dam olish
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container mt-5" id="tolov">
+            <h2 class="text-center text-primary mb-4">To'lov ma'lumotlari</h2>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">To'lov tartibi</h4>
+                    <p class="card-text">
+                        Xona bron qilish uchun belgilangan to'lov
+                        tartibiga rioya qilishingiz kerak.
+                    </p>
+                    <p>To'lov turlari:</p>
+                    <ul>
+                        <li>Naqd pul</li>
+                        <li>Bank kartasi</li>
+                        <li>Elektron to'lov</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5" id="fikrlar">
+            <h2 class="text-center text-primary mb-4">Mijozlar fikri</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Ali Valiyev</h5>
+                            <p class="card-text">
+                                Mehmonxona juda qulay. Xizmat ko'rsatish
+                                sifati menga yoqdi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Aziza Karimova</h5>
+                            <p class="card-text">
+                                Xonalar toza va shinam. Yana kelishni
+                                rejalashtiryapman.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5 mb-5" id="aloqa">
+            <h2 class="text-center text-primary mb-4">Biz bilan bog'laning</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Manzil:</h5>
+                    <p>Samarqand shahri</p>
+                    <h5>Telefon:</h5>
+                    <p>+998 90 123 45 67</p>
+                    <h5>Email:</h5>
+                    <p>grandhotel@gmail.com</p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="rasimlar/xarita.png" alt="Mehmonxona xaritasi" class="img-fluid">
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-primary text-white text-center p-4">
+            <h5>GRAND HOTEL</h5>
+            <p>Qulaylik va sifatli xizmat — bizning ustuvor vazifamiz.</p>
+            <p>© 2026 Grand Hotel. Barcha huquqlar himoyalangan.</p>
+
+        </footer>
+        <script src="bootstrap.bundle.min(1).js"></script>
+
+</body>
+
+</html>
